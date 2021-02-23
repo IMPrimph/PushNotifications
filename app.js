@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'client')))
 app.use(bodyParser.json())
 
 const publicVapidKey = 'BJvqNQVHWDEV0j70sm9Q2r1ZQqA1nER8wW3q89IHOmhHWMwzXLZ9URPxHkUfTCPkt0pZXNNMvOXH427QUAVgnsk'
-const privateVapidKey = "qI7OOO6dWZSVEDhF7abHrKVyt9vtcBX0fb-j5m7uDsE";
+const privateVapidKey = "YOUR_PRIVATE_KEY";
 
 webPush.setVapidDetails(
     'mailto:test@test.com',
